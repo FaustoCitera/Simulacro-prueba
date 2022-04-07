@@ -210,6 +210,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e529ce7447781d408dc5687c864a4ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  producto1: 4
+  producto2: 2
+  producto3: 1
+  monto: 5
 --- !u!4 &347732985
 Transform:
   m_ObjectHideFlags: 0
@@ -335,8 +339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0462353a5b3414186b6515267f52c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  num1: 0
-  num2: 0
+  num1: 5
+  num2: 5
 --- !u!4 &1494377801
 Transform:
   m_ObjectHideFlags: 0

@@ -16,14 +16,14 @@ public class EJ2 : MonoBehaviour
 		float resto;
 		suma = producto1 + producto2 + producto3;
 		falta = suma - monto;
-		resto = suma - monto;
+		resto = monto - suma;
 		if (suma > monto)
 		{
 			Debug.Log("La suma supera al monto disponible y a usted le faltan " + falta + " pesos ");
 		}
 		else if (suma <= monto)
 		{
-			Debug.Log("La suma no supera al monto disponible y a usted le sobran" + resto + " pesos ");
+			Debug.Log("La suma no supera al monto disponible y a usted le sobran " + resto + " pesos ");
 		}
     }
 
