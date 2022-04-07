@@ -1,13 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//2.Solicitar el ingreso del precio de 3 productos y un monto de dinero disponible.Comunicar si la suma de los mismos supera o no el monto de dinero disponible.Luego indicar cuánto dinero sobra o falta.
 public class EJ2 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+	public int producto1;
+	public int producto2;
+	public int producto3;
+	public int monto;
+	// Start is called before the first frame update
+	void Start()
     {
-        
+		int suma;
+		int falta;
+		int resto;
+		suma = producto1 + producto2 + producto3;
+		falta = suma - monto;
+		resto = suma - monto;
+		if (suma > monto)
+		{
+			Debug.Log("La suma supera al monto disponible y a usted le faltan " + falta + " pesos ");
+		}
+		else if (suma <= monto)
+		{
+			Debug.Log("La suma no supera al monto disponible y a usted le sobran" + resto + " pesos ");
+		}
     }
 
     // Update is called once per frame

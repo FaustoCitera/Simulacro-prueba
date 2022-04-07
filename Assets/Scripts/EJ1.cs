@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//1.Crea un programa que pida dos números al usuario y responda si son iguales o no lo son.
 public class EJ1 : MonoBehaviour
 {
 	public int num1;
